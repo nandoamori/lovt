@@ -45,19 +45,20 @@
      color: #AAA;
      font-size: 10px;
      font-weight: 400;
-     margin-left: -1120px;
+     margin-left: -1090px;
      
     
  }
 
  header img {
      color: #AAA;
-     width: 18px;
-     height: 12px;
+     width: 25px;
+     height: 15px;
      cursor: pointer;
+     margin-right: 30px;
  }
 
- article {
+ .banner {
      width: 87%;
      height: 450px;
      background-image: url(../css/images/banner.png);
@@ -70,20 +71,94 @@
      align-items: center;
           
  }
- .ellipse {
-    background: rgba(141, 141, 141, 0.62);
+ .banner .arrows {
+     background-color: rgba(141, 141, 141, 0.62);
      width: 39px;
      height: 39px;
      border-radius: 50%;
-
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
  }
- .ellipse-2 {
-    background: rgba(141, 141, 141, 0.62);
-     width: 39px;
-     height: 39px;
-     border-radius: 50%;
+ section#lofts {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 87px;
+     
+ }
+ article {
+     width: 500px;
+     height: 350px;
+     display: flex;
+    
+     
+ }
 
+ .lofts-container {
+     background-color: #EEE;
+     
+ }
+ .card-image-1 {
+     background-image: url(../css/images/home1.jpg);
+     width: 500px;
+     height: 200px;
+     background-repeat: no-repeat;
+     background-size: cover;
  }
  
- 
- 
+ .card-image-2 {
+    background-image: url(../css/images/home2.jpg);
+    width: 500px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.card-title-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #888;
+}
+.green-ellipse {
+    width: 60px;
+    height: 21px;
+    background-color: #51D275;
+    border-radius: 10.5px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 400;   
+    font-size: 20px;
+    
+}
+.orange-ellipse {
+    width: 60px;
+    height: 21px;
+    background-color: #DC9730;
+    border-radius: 10.5px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 400;   
+    font-size: 20px;
+    
+}
+
+.lofts-container p {
+    font-size: 15px;
+    text-align: justify;
+    margin: 10px;
+    color: #555;
+}
