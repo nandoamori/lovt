@@ -88,7 +88,7 @@
      margin: 87px;
      
  }
- article {
+ section#lofts article {
      width: 500px;
      height: 350px;
      display: flex;
@@ -162,3 +162,114 @@ h1 {
     margin: 10px;
     color: #555;
 }
+
+article.types-loft {
+    width: 87%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 87px;
+    
+    
+}
+
+.types-loft h1 {
+    
+    color: #888;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+}
+
+.industrial {
+    width: 100%;
+    height: 150px;
+    background-image: url(./images/industrial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    
+    
+        
+}
+
+.modern {
+    width: 100%;
+    height: 150px;
+    background-image: url(./images/modern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.classic {
+    width: 100%;
+    height: 150px;
+    background-image: url(./images/classic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.end-page {
+    width: 100%;
+    height: 306px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#333;
+    margin-top: 80px;
+    align-items: center;
+    padding: 20px;
+}
+
+.end-page p {
+    width: 235px;
+    height: 165px;
+    color: #FFF;
+    
+    
+}
+
+.end-page img {
+    width: 370px;
+    height: 230px;
+    margin-left: 68px;
+    
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    position: absolute;
+    right: 0;
+    margin-left: 10px;
+   
+          
+}
+
+.social-media img {
+    width: 25px;
+    height: 25px;
+    margin: 200px 17px 17px 25px;
+    cursor: pointer;
+
+}
+
+ 
