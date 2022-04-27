@@ -140,7 +140,7 @@ main {
     margin: 10px;
 }
 
-h1 {
+h1.price {
     font-weight: 400;
     font-size: 30px;
     color: #888;
@@ -177,23 +177,29 @@ h1 {
 
 .categories {
     display: flex;
+    margin: 50px 0 70px 0;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
 .categories nav {
     width: 100%;
     margin: 60px 0 0 0;
     text-align:center;
+    transition: 0.3s;
 }
 
 .categories nav label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 60px;
 }
 
+
 .categories label:hover {
     cursor: pointer;
+    font-size: 65px;
 }
 
 .categories h1 {
@@ -210,12 +216,14 @@ h1 {
     background-image: url(./images/industrial.png);
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
     justify-content: center;
-    color: #FFF;
+    color: var(--color-white);
     font-size: 35px;
     font-weight: 400;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
+
 
 .categoriesTwo {
     width: 100%;
@@ -223,6 +231,8 @@ h1 {
     background-image: url(./images/modern.png);
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
+    justify-content: center;
     color: #FFF;
     font-size: 35px;
     font-weight: 400;
